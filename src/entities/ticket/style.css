@@ -1,0 +1,37 @@
+.ticket {
+  height: 180px;
+  width: 100%;
+  background-color: var(--color-light-lavender);
+  padding: 16px 24px;
+  border-radius: 10px;
+}
+
+.ticket__header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ticket__price {
+  font-size: 32px;
+  color: var(--color-purple);
+  font-weight: 600;
+}
+
+.ticket__info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+
+.ticket__info-item {
+  color: var(--color-lavender);
+}
+
+.ticket__info-data {
+  color: var(--color-purple);
+}

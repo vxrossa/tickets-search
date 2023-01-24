@@ -1,0 +1,17 @@
+.company-filter {
+  width: 100%;
+  height: 80px;
+  background-color: var(--color-purple);
+  margin-bottom: 24px;
+  border-radius: 10px;
+  padding: 10px 24px;
+  color: white;
+}
+
+.company-filter__list {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: space-around;
+}
